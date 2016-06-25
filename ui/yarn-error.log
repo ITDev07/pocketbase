@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\ia32;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\intel64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Go\bin;C:\TDM-GCC-64\bin;C:\Users\Administrator\.cargo\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin;D:\xampp\php;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;C:\Users\Administrator\go\bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Work\GoLang\pocketbase\ui\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "pocketbase-admin",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "prettier": {
+      "tabWidth": 4,
+      "printWidth": 110,
+      "svelteBracketNewLine": true
+    },
+    "devDependencies": {
+      "@codemirror/autocomplete": "^6.0.0",
+      "@codemirror/commands": "^6.0.0",
+      "@codemirror/lang-html": "^6.1.0",
+      "@codemirror/lang-javascript": "^6.0.2",
+      "@codemirror/language": "^6.0.0",
+      "@codemirror/legacy-modes": "^6.0.0",
+      "@codemirror/search": "^6.0.0",
+      "@codemirror/state": "^6.0.0",
+      "@codemirror/view": "^6.0.0",
+      "@sveltejs/vite-plugin-svelte": "^1.0.1",
+      "chart.js": "^3.7.1",
+      "chartjs-adapter-luxon": "^1.1.0",
+      "luxon": "^2.3.2",
+      "pocketbase": "^0.5.0",
+      "prismjs": "^1.28.0",
+      "sass": "^1.45.0",
+      "svelte": "^3.44.0",
+      "svelte-flatpickr": "^3.2.6",
+      "svelte-spa-router": "^3.2.0",
+      "vite": "^3.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
